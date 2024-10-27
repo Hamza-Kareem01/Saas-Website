@@ -1,0 +1,266 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:sans-serif;
+    background-color: rgb(250, 248, 250);
+}
+
+nav{
+    position: fixed;
+    background-color: rgb(250, 248, 250);
+    width: 100%;
+    height: 90px;
+    color: whitesmoke;
+    /* position: relative; */
+}
+
+#header-container{
+    display: flex;
+    justify-content: space-between;
+}
+#header-button{
+    background-color: orangered;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+#img-div-first>img{
+    border: 1px solid rgb(182, 175, 175);
+}
+#AI-convert-container{
+     display: flex;
+     justify-content: space-around;
+     position:relative;
+}
+#header-button:hover{
+    background-color: black;
+}
+
+.AI-convert-button{
+    display: flex;
+    justify-content: center;
+}
+.AI-convert-button>button{
+    padding: 2px;
+    font-size: smaller;
+    padding-left: 2px;
+}
+.AI-convert-heading>h2{
+    display: flex;
+    justify-content: center;
+}
+
+.AI-convert-para{
+    display: flex;
+    justify-content: center;
+}
+
+.AI-convert-button2{
+    display: flex;
+    justify-content: center;
+}
+.AI-convert-button2>button{
+    display: flex;
+    background-color: orangered;
+    color: whitesmoke;
+    border: none;
+    padding-right: 3px;
+    justify-content: center;
+    align-items: center;
+}
+.AI-convert-button2-div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(236, 229, 229);
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row;
+    flex-wrap: nowrap;
+    width: min-content; */
+}
+
+
+
+#img-div-first{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* #animation-main-div{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#animation-main-div:after{
+    right: 0;
+    top:0;
+    transform: rotate(180deg);
+}
+
+#animation-main-div:after, #animation-main-div{
+    content: "";
+    /* position: absolute; 
+    z-index: 2;
+ } */
+#animation-main-div, #animation-img-div{
+    animation: rotate-img 10s linear infinite;
+    display: flex;
+}
+
+#animation-img-div>div>img{
+    transition: all .3 ease-in-out;
+    position:  relative !important;
+    object-fit: cover;
+    user-select: none !important;
+} */
+
+/* @keyframes rotate-img{
+    0%{
+        transform: rotateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px*7));
+    }
+}  */
+
+
+#CRM-main-div>button{
+    background-color: rgb(252, 240, 242);
+}
+
+.CRM-heading>span{
+    color: orangered;
+}
+
+#CRM-button2{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+#CRM-button2:hover{
+    background-color: rgb(19, 13, 13);
+}
+
+#CRM-second-div{
+    background-color: rgb(252, 240, 242);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Feature-heading>h2{
+    display: flex;
+    justify-content: center;
+}
+
+#feature-heading::after{
+    content: "by 50%";
+    color: orangered;
+}
+
+.Feature-para>p{
+    display: flex;
+    justify-content: center;
+}
+
+#Feature-button{
+    border: 1px solid black;
+}
+#Feature-button:hover{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+#integration-button{
+    border: 1px solid black;
+}
+
+#integration-button:hover{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+
+#FAQ-button{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+#FAQ-button:hover{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+#convert-today-div{
+    background-image: linear-gradient(black,rgb(89, 33, 10));
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: whitesmoke;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+#yes-button{
+    background-color: orangered;
+    color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+
+/* #Pricing-Main-Div{ 
+    display: none;
+}  */
+
+
+
+#goback-button{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#goback-button:hover{
+    background-color: black;
+}
+
+
+
+#Monthly{
+    background-color: orangered;
+}
+#Monthly-button{
+    background-color: orangered;
+    width: 100%;
+}
+
+#Monthly-button:hover{
+    background-color: black;
+}
+
+#Annual-button{
+    border: 1px solid black;
+    width: 100%;
+}
+
+#Annual-button:hover{
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+
+#testi-heading::before br{
+    color: orangered;
+}
